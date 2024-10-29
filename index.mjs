@@ -10,7 +10,7 @@
 // }
 
 // function queryParser(query = "") {
-//   //employee-form=123&user=3
+  //employee-form=123&user=3
 //   const parsedQuery = query.split("&"); // [employee-form=123, user=3]
 //   const queryObj = {};
 //   for (let index = 0; index < parsedQuery.length; index++) {
@@ -24,34 +24,34 @@
 //   return "";
 // }
 
-// // const _get = (req, res) => {
-// //   switch (req.url) {
-// //     case "/":
-// //       res.end("Home page: " + req.url);
-// //       break;
-// //     case "/contact":
-// //       res.end("Contact page: " + req.url);
-// //       break;
-// //     case "/about":
-// //       res.end("About page: " + req.url);
-// //       break;
-// //     case "/about?memberships":
-// //       res.end("Membership page: " + req.url);
-// //       break;
-// //     default:
-// //       res.end("404 Not found: " + req.url);
-// //   }
-// // };
+// const _get = (req, res) => {
+//   switch (req.url) {
+//     case "/":
+//       res.end("Home page: " + req.url);
+//       break;
+//     case "/contact":
+//       res.end("Contact page: " + req.url);
+//       break;
+//     case "/about":
+//       res.end("About page: " + req.url);
+//       break;
+//     case "/about?memberships":
+//       res.end("Membership page: " + req.url);
+//       break;
+//     default:
+//       res.end("404 Not found: " + req.url);
+//   }
+// };
 
-// // const _post = (req, res) => {
-// //   switch (req.url) {
-// //     case "/contact":
-// //       res.end("Contact form submitted");
-// //       break;
-// //     default:
-// //       res.end("404 Not found: " + req.url);
-// //   }
-// // };
+// const _post = (req, res) => {
+//   switch (req.url) {
+//     case "/contact":
+//       res.end("Contact form submitted");
+//       break;
+//     default:
+//       res.end("404 Not found: " + req.url);
+//   }
+// };
 
 // const routes = [
 //   {
